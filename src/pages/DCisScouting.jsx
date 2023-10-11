@@ -1,7 +1,13 @@
+import { useNavigate } from "react-router-dom";
 import Button from "../components/Button/Button";
 import Navbar from "../components/Navbar/Navbar";
 
 const DCisScouting = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/jobs");
+  };
   return (
     <div>
       <Navbar />
@@ -12,7 +18,7 @@ const DCisScouting = () => {
           <span>Revolución Tecnológica</span>
         </h2>
       </div>
-      <Button label="Ver puestos en DCisGlobal" />
+      <Button handleClick={handleClick} label="Ver puestos en DCisGlobal" />
       <div className="dcisscouting-intro">
         <p>
           En #DCisGlobal, nos diferenciamos por nuestra innovadora forma de
