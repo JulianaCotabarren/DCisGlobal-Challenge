@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import Button from "../components/Button/Button";
 import Navbar from "../components/Navbar/Navbar";
+import BoardContainer from "../components/Board/BoardContainer";
 
 const DCisScouting = () => {
   const navigate = useNavigate();
@@ -30,6 +31,11 @@ const DCisScouting = () => {
           juego. ¡El futuro tecnológico te espera, sin etiquetas ni límites!
         </p>
       </div>
+      <div className="talent-selection">
+        <h3>Innovative talent scouting</h3>
+        <h2>Proceso de seleccion de talento</h2>
+      </div>
+      <BoardContainer />
     </div>
   );
 };

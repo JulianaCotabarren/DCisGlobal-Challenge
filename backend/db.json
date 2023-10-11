@@ -70,5 +70,25 @@
     "type": "Hibrid",
     "date": "10/10/2023"
   }
+],
+"boards":[
+  {
+    "id":"1",
+    "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    "title": "Proceso de selección",
+    "text": "En DCisGlobal, nuestro riguroso proceso de selección de talentos es una parte esencial para encontrar a los profesionales más capacitados y alineados con nuestros valores. Valoramos el potencial y la pasión de cada candidato, sin requerir evaluaciones técnicas ni entrevistas detalladas. Buscamos personas comprometidas, creativas y dispuestas a enfrentar los desafíos tecnológicos más exigentes."
+  },
+  {
+    "id":"2",
+    "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG9ubGluZSUyMGNvdXJzZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "title": "Capacitación profesional",
+    "text": "Además, fomentamos el desarrollo continuo de nuestros equipos. Por eso, ofrecemos el curso #DCisSolverMaker1.0, que brinda las herramientas y conocimientos necesarios para destacarte en su rol. Este programa exclusivo permite a los profesionales fortalecer sus habilidades y contribuir al éxito de nuestros proyectos."
+  },
+  {
+    "id":"3",
+    "image": "https://images.unsplash.com/photo-1616531770192-6eaea74c2456?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cmVtb3RlJTIwbWVldGluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "title": "Nuestros equipos",
+    "text": "Nuestro proceso de selección cuidadoso y la capacitación en #DCisSolverMaker1.0 nos permiten formar equipos talentosos y preparados. Estamos comprometidos en buscar y nutrir el talento excepcional que impulsará el crecimiento y la innovación en nuestros proyectos. ¡Únete a nuestros talentosos equipos y sé parte del cambio tecnológico!"
+  }
 ]
 }
