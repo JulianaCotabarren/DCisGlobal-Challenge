@@ -1,12 +1,11 @@
 import Navbar from "../components/Navbar/Navbar";
+import Titles from "../components/Titles/Titles";
 
 const DCisPartners = () => {
   return (
     <div>
       <Navbar />
-      <div className="title">
-        <h1>#DCisPartners</h1>
-      </div>
+      <Titles mainTitle="#DCisPartners" />
     </div>
   );
 };

@@ -3,6 +3,7 @@ import Button from "../components/Button/Button";
 import Navbar from "../components/Navbar/Navbar";
 import BoardContainer from "../components/Board/BoardContainer";
 import Form from "../components/Form/Form";
+import Titles from "../components/Titles/Titles";
 
 const DCisScouting = () => {
   const navigate = useNavigate();
@@ -14,13 +15,10 @@ const DCisScouting = () => {
   return (
     <div>
       <Navbar />
-      <div className="title">
-        <h1>#DCisScouting</h1>
-        <h2>
-          Potencia tu <span>Talento</span> y únete a la{" "}
-          <span>Revolución Tecnológica</span>
-        </h2>
-      </div>
+      <Titles
+        mainTitle="#DCisScouting"
+        subTitle="Potencia tu Talento y únete a la Revolución Tecnológica"
+      />
       <Button handleClick={handleClick} label="Ver puestos en DCisGlobal" />
       <div className="dcisscouting-intro">
         <p>

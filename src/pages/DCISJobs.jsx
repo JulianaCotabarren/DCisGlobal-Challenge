@@ -3,6 +3,7 @@ import CardsContainer from "../components/Card/CardsContainer";
 import Filter from "../components/Filter/Filter";
 import Navbar from "../components/Navbar/Navbar";
 import Search from "../components/Search/Search";
+import Titles from "../components/Titles/Titles";
 
 const DCISJobs = () => {
   const [currentFilter, setCurrentFilter] = useState("all");
@@ -19,12 +20,10 @@ const DCISJobs = () => {
   return (
     <div>
       <Navbar />
-      <div className="title">
-        <h1>#DCisJobs</h1>
-        <h2>
-          Desarrolla tu carrera en <span>DCisGlobal</span>
-        </h2>
-      </div>
+      <Titles
+        mainTitle="#DCisJobs"
+        subTitle="Desarrolla tu carrera en DCisGlobal"
+      />
       <div className="filter-and-search">
         <Filter
           filterField="type"
