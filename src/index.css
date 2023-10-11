@@ -117,14 +117,14 @@ a{
   color: #575757;
 }
 /* Filter table */
-.filter-and-sort{
+.filter-and-search{
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 45rem;
+  margin-left: 36rem;
 }
 .filter-table{
-  width: 23rem;
+  width: 30rem;
   height: 2.6rem;
   border-radius: .2rem;
   background-color: #fff;
@@ -146,6 +146,34 @@ a{
   transition: all .3s;
   border-radius: .2rem;
   color: white;
+}
+/* Search */
+.search{
+  width: 30rem;
+  height: 2.6rem;
+}
+.search input{
+  border: transparent;
+  height: 2.6rem;
+  font-size: 1rem;
+  border-radius: .2rem;
+  background-color: #fff;
+  box-shadow:  2px 2px #cccccc;
+  padding-left: .5rem;
+}
+.search button{
+  color: white;
+  background-color: #A97ED9;
+  border: 1px solid #A97ED9;
+  border-radius: .8rem;
+  width: 7rem;
+  height: 2.2rem;
+  font-size: 1rem;
+  margin-left: .8rem;
+}
+.search button:hover{
+  background-color: #575757;
+  cursor: pointer;
 }
 /* Cards */
 .cards{
@@ -201,4 +229,8 @@ a{
 }
 .card-item-location-icon{
   font-size: 1.4rem;
+}
+/* Empty */
+.empty{
+  margin: 2rem 0;
 }

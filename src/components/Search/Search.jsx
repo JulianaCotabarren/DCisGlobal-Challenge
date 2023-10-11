@@ -17,17 +17,19 @@ const Search = ({ onSearch }) => {
   };
 
   return (
-    <form onSubmit={onSearchSubmit}>
-      <input
-        type="text"
-        name="searchText"
-        placeholder="Search a job"
-        autoComplete="off"
-        value={searchText}
-        onChange={onInputChange}
-      />
-      <button>Search</button>
-    </form>
+    <div className="search">
+      <form onSubmit={onSearchSubmit}>
+        <input
+          type="text"
+          name="searchText"
+          placeholder="Search a job"
+          autoComplete="off"
+          value={searchText}
+          onChange={onInputChange}
+        />
+        <button>Search</button>
+      </form>
+    </div>
   );
 };
 

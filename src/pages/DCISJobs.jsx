@@ -25,7 +25,7 @@ const DCISJobs = () => {
           Desarrolla tu carrera en <span>DCisGlobal</span>
         </h2>
       </div>
-      <div className="filter-and-sort">
+      <div className="filter-and-search">
         <Filter
           filterField="type"
           options={[
