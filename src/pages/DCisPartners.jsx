@@ -6,9 +6,6 @@ const DCisPartners = () => {
       <Navbar />
       <div className="title">
         <h1>#DCisPartners</h1>
-        <h2>
-          Desarrolla tu carrera en <span>DCisGlobal</span>
-        </h2>
       </div>
     </div>
   );

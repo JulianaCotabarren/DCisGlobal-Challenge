@@ -5,9 +5,9 @@ const WeAreDCisGlobal = () => {
     <div>
       <Navbar />
       <div className="title">
-        <h1>#WeAreDCisGlobal</h1>
+        <h1>We are #DCisGlobal</h1>
         <h2>
-          Desarrolla tu carrera en <span>DCisGlobal</span>
+          Tenemos el equipo que buscas <span>#DCisDevTeam</span>
         </h2>
       </div>
     </div>

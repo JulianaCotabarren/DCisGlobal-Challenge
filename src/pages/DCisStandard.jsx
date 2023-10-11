@@ -7,7 +7,7 @@ const DCisStandard = () => {
       <div className="title">
         <h1>#DCisStandard</h1>
         <h2>
-          Desarrolla tu carrera en <span>DCisGlobal</span>
+          Desbloquea el <span>Potencial Tecnológico</span> de tu Empresa
         </h2>
       </div>
     </div>

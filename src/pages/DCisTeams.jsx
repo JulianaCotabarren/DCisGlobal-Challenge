@@ -7,7 +7,7 @@ const DCisTeams = () => {
       <div className="title">
         <h1>#DCisTeams</h1>
         <h2>
-          Desarrolla tu carrera en <span>DCisGlobal</span>
+          <span>Equipos</span>que Inspiran<span>Grandeza</span>
         </h2>
       </div>
     </div>
