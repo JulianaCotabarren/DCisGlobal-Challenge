@@ -6,9 +6,14 @@ import Search from "../components/Search/Search";
 
 const DCISJobs = () => {
   const [currentFilter, setCurrentFilter] = useState("all");
+  const [searchText, setSearchText] = useState("");
 
   const handleFilterChange = (filter) => {
     setCurrentFilter(filter);
+  };
+
+  const handleSearch = (searchText) => {
+    setSearchText(searchText);
   };
 
   return (
@@ -32,9 +37,9 @@ const DCISJobs = () => {
           currentFilter={currentFilter}
           onFilterChange={handleFilterChange}
         />
-        <Search />
+        <Search onSearch={handleSearch} />
       </div>
-      <CardsContainer currentFilter={currentFilter} />
+      <CardsContainer currentFilter={currentFilter} searchText={searchText} />
     </div>
   );
 };
