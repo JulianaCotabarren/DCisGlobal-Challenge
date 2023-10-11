@@ -1,7 +1,7 @@
-const Button = () => {
+const Button = ({ label, handleClick }) => {
   return (
     <div className="button">
-      <button>Ver puestos en DCisGlobal</button>
+      <button onClick={handleClick}>{label}</button>
     </div>
   );
 };
