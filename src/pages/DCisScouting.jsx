@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import Button from "../components/Button/Button";
 import Navbar from "../components/Navbar/Navbar";
 import BoardContainer from "../components/Board/BoardContainer";
+import Form from "../components/Form/Form";
 
 const DCisScouting = () => {
   const navigate = useNavigate();
@@ -9,6 +10,7 @@ const DCisScouting = () => {
   const handleClick = () => {
     navigate("/jobs");
   };
+
   return (
     <div>
       <Navbar />
@@ -36,6 +38,7 @@ const DCisScouting = () => {
         <h2>Proceso de seleccion de talento</h2>
       </div>
       <BoardContainer />
+      <Form />
     </div>
   );
 };
