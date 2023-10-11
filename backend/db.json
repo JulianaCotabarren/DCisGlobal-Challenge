@@ -1,0 +1,74 @@
+{
+  "jobs": [
+  {
+    "id": "1",
+    "title": "Frontend Web Developer",
+    "location": "Buenos Aires, Argentina",
+    "type": "Remote",
+    "date": "10/10/2023"
+  },
+  {
+    "id": "2",
+    "title": "Game Developer",
+    "location": "Córdoba, Argentina",
+    "type": "Hibrid",
+    "date": "08/10/2023"
+  },
+  {
+    "id": "3",
+    "title": "QA Analyst",
+    "location": "Rosario, Argentina",
+    "type": "Remote",
+    "date": "10/09/2023"
+  },
+  {
+    "id": "4",
+    "title": "Test Automation Engineer",
+    "location": "Montevideo, Uruguay",
+    "type": "Remote",
+    "date": "30/09/2023"
+  },
+  {
+    "id": "5",
+    "title": "Project Manager",
+    "location": "Bogota, Colombia",
+    "type": "Remote",
+    "date": "1/10/2023"
+  },
+  {
+    "id": "6",
+    "title": "Data Scientist",
+    "location": "Buenos Aires, Argentina",
+    "type": "Presential",
+    "date": "10/08/2023"
+  },
+  {
+    "id": "7",
+    "title": "Backend Developer",
+    "location": "Córdoba, Argentina",
+    "type": "Remote",
+    "date": "15/09/2023"
+  },
+  {
+    "id": "8",
+    "title": "Full-Stack Developer",
+    "location": "Buenos Aires, Argentina",
+    "type": "Remote",
+    "date": "17/08/2023"
+  },
+  {
+    "id": "9",
+    "title": "React Web Developer",
+    "location": "Montevideo, Uruguay",
+    "type": "Remote",
+    "date": "23/09/2023"
+  },
+  {
+    "id": "10",
+    "title": "QC Analyst",
+    "location": "Rosario, Argentina",
+    "type": "Hibrid",
+    "date": "10/10/2023"
+  }
+]
+}
