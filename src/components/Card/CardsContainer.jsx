@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { JobsContext } from "../../context/JobsProvider";
 import Card from "./Card";
+import Empty from "../Empty/Empty";
 
 const CardsContainer = ({ currentFilter, searchText }) => {
   const { jobs } = useContext(JobsContext);
@@ -11,6 +12,7 @@ const CardsContainer = ({ currentFilter, searchText }) => {
       : jobs.filter((job) => job.type === currentFilter);
 
   let filteredJobsByTitle = filteredJobsByType;
+
   if (searchText) {
     const title = searchText.toLowerCase().trim();
     filteredJobsByTitle = filteredJobsByType.filter((job) =>
@@ -20,9 +22,11 @@ const CardsContainer = ({ currentFilter, searchText }) => {
 
   return (
     <div className="cards">
-      {filteredJobsByTitle.map((job) => (
-        <Card key={job.id} {...job} />
-      ))}
+      {filteredJobsByTitle.length === 0 ? (
+        <Empty />
+      ) : (
+        filteredJobsByTitle.map((job) => <Card key={job.id} {...job} />)
+      )}
     </div>
   );
 };

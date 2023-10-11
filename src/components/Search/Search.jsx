@@ -3,6 +3,7 @@ import queryString from "query-string";
 import { useForm } from "../../hooks/useForm";
 
 const Search = ({ onSearch }) => {
+  const navigate = useNavigate();
   const location = useLocation();
   const { q = "" } = queryString.parse(location.search);
 
@@ -11,6 +12,7 @@ const Search = ({ onSearch }) => {
   const onSearchSubmit = (e) => {
     e.preventDefault();
     onSearch(searchText);
+    navigate(`?q=${searchText}`);
     onResetForm();
   };
 

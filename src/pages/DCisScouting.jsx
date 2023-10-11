@@ -12,7 +12,7 @@ const DCisScouting = () => {
           <span>Revolución Tecnológica</span>
         </h2>
       </div>
-      <Button />
+      <Button label="Ver puestos en DCisGlobal" />
       <div className="dcisscouting-intro">
         <p>
           En #DCisGlobal, nos diferenciamos por nuestra innovadora forma de
