@@ -1,13 +1,11 @@
 import JobsProvider from "./context/JobsProvider";
-import DCISJobs from "./pages/DCISJobs";
-/* import DCisScouting from "./pages/DCisScouting"; */
+import Router from "./routes";
 
 function App() {
   return (
     <JobsProvider>
       <div className="App">
-        {/* <DCisScouting /> */}
-        <DCISJobs />
+        <Router />
       </div>
     </JobsProvider>
   );
