@@ -13,7 +13,7 @@ a{
   text-decoration: none;
 }
 /* Navbar */
-.navbar{
+/* .navbar{
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -61,7 +61,7 @@ a{
   border-bottom: 2px #A97ED9 solid;
   border-top: 2px #A97ED9 solid;
   cursor: pointer;
-}
+} */
 /* Titles */
 .title h1{
   font-size: 3.2rem;
