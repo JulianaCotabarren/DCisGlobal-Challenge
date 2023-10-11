@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import logo from "../../assets/logo.png";
 
 const Navbar = () => {
@@ -8,11 +9,11 @@ const Navbar = () => {
       </div>
       <div className="navbar-items">
         <ul>
-          <li>#WeAreDCisGlobal</li>
-          <li>#DCisStandard</li>
-          <li>#DCisTeams</li>
-          <li>#DCisScouting</li>
-          <li>#DCisPartners</li>
+          <NavLink to="/">#WeAreDCisGlobal</NavLink>
+          <NavLink to="/standard">#DCisStandard</NavLink>
+          <NavLink to="/teams">#DCisTeams</NavLink>
+          <NavLink to="/scouting">#DCisScouting</NavLink>
+          <NavLink to="/partners">#DCisPartners</NavLink>
         </ul>
       </div>
     </div>

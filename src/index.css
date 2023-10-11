@@ -44,19 +44,22 @@ a{
   height: 2.8rem;
   width: 50vw;
 }
-.navbar ul li{
-  padding: 0 1rem;
+.navbar ul a {
+  text-decoration: none;
+}
+.navbar ul a, .navbar ul li {
+  padding: 0 .5rem;
   list-style: none;
   height: 1.7rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: white;
+  transition: .3s;
 }
-.navbar ul li:hover{
+.navbar ul a:hover {
   border-bottom: 2px #A97ED9 solid;
   border-top: 2px #A97ED9 solid;
-  transition: .3s;
   cursor: pointer;
 }
 /* Titles */
