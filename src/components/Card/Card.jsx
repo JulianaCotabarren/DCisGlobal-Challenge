@@ -1,21 +1,28 @@
 /* import { jobs } from "../../data"; */
 import { IoLocationSharp } from "react-icons/io5";
+import { CardContainer } from "./styles/CardContainer";
+import { StyledCardTitle } from "./styles/StyledCardTitle";
+import { StyledCardText } from "./styles/StyledCardText";
+import { StyledCardButton } from "./styles/StyledCardButton";
+import { StyledCardLocation } from "./styles/StyledCardLocation";
+import { StyledCardIcon } from "./styles/StyledCardIcon";
+import { StyledCardType } from "./styles/StyledCardType";
 
 const Card = (props) => {
   const { id, title, location, type } = props;
 
   return (
-    <div className="card-item">
-      <h2>{title}</h2>
-      <div className="card-item-location">
-        <div className="card-item-location-icon">
+    <CardContainer>
+      <StyledCardTitle>{title}</StyledCardTitle>
+      <StyledCardLocation>
+        <StyledCardIcon>
           <IoLocationSharp />
-        </div>
-        <p>{location}</p>
-      </div>
-      <p className="card-item-type">{type}</p>
-      <a>Ver detalles</a>
-    </div>
+        </StyledCardIcon>
+        <StyledCardText>{location}</StyledCardText>
+      </StyledCardLocation>
+      <StyledCardType>{type}</StyledCardType>
+      <StyledCardButton>Ver detalles</StyledCardButton>
+    </CardContainer>
   );
 };
 
