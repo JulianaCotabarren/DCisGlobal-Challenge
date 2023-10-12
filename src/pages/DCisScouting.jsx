@@ -5,6 +5,7 @@ import BoardContainer from "../components/Board/BoardContainer";
 import Form from "../components/Form/Form";
 import IntroText from "../components/IntroText/IntroText";
 import HeaderTitles from "../components/Titles/HeaderTitles";
+import BodyTitles from "../components/Titles/BodyTitles";
 
 const DCisScouting = () => {
   const navigate = useNavigate();
@@ -22,10 +23,10 @@ const DCisScouting = () => {
       />
       <Button handleClick={handleClick} label="Ver puestos en DCisGlobal" />
       <IntroText />
-      <div className="talent-selection">
-        <h3>Innovative talent scouting</h3>
-        <h2>Proceso de seleccion de talento</h2>
-      </div>
+      <BodyTitles
+        preTitle="Innovative talent scouting"
+        bodyTitle="Proceso de seleccion de talento"
+      />
       <BoardContainer />
       <Form />
     </div>
