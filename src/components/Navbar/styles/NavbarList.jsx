@@ -14,15 +14,16 @@ export const NavbarList = styled.ul`
   margin-left: 1rem;
   margin-top: 1.5rem;
   padding: 0;
-  width: 38rem;
+  width: 46rem;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 
   ${respondTo.sm`
     margin-left: 0;
   `}
   ${respondTo.md`
-    margin-left: 14rem;
+    margin-left: 4rem;
   `}
   ${respondTo.lg`
-    margin-left: 18rem;
+    margin-left: 10rem;
   `}
 `;

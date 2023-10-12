@@ -7,6 +7,5 @@ export const HeaderTitlesContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   color: white;
-  letter-spacing: 0.2rem;
   margin-top: 8rem;
 `;

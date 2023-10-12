@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 export const NavbarLink = styled(NavLink)`
+  font-weight: 600;
   text-decoration: none;
   padding: 0 0.5rem;
   list-style: none;

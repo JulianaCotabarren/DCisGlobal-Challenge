@@ -1,7 +1,10 @@
 import styled from "styled-components";
 
 export const StyledFilterButton = styled.button`
-  font-size: 0.9rem;
+  font-size: 1rem;
+  font-family: "Red Hat Display";
+  font-weight: 700;
+  color: var(--color-grey-100);
   padding: 0.2rem 1rem;
   height: 2rem;
   background-color: transparent;
