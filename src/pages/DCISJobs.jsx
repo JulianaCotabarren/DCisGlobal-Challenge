@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Search from "../components/Search/Search";
 import HeaderTitles from "../components/Titles/HeaderTitles";
 import { FilterAndSearchContainer } from "../components/Filter/styles/FilterAndSearchContainer";
+import Footer from "../components/Footer/Footer";
 
 const DCisJobs = () => {
   const [currentFilter, setCurrentFilter] = useState("all");
@@ -40,6 +41,7 @@ const DCisJobs = () => {
         <Search onSearch={handleSearch} />
       </FilterAndSearchContainer>
       <CardsContainer currentFilter={currentFilter} searchText={searchText} />
+      <Footer />
     </div>
   );
 };

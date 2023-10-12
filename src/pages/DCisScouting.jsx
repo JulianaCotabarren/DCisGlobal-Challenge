@@ -6,6 +6,7 @@ import Form from "../components/Form/Form";
 import IntroText from "../components/IntroText/IntroText";
 import HeaderTitles from "../components/Titles/HeaderTitles";
 import BodyTitles from "../components/Titles/BodyTitles";
+import Footer from "../components/Footer/Footer";
 
 const DCisScouting = () => {
   const navigate = useNavigate();
@@ -29,6 +30,7 @@ const DCisScouting = () => {
       />
       <BoardContainer />
       <Form />
+      <Footer />
     </div>
   );
 };

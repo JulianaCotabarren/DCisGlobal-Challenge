@@ -1,3 +1,4 @@
+import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
 import HeaderTitles from "../components/Titles/HeaderTitles";
 
@@ -9,6 +10,7 @@ const WeAreDCisGlobal = () => {
         mainTitle="We are #DCisGlobal"
         subTitle="Tenemos el equipo que buscas #DCisDevTeam"
       />
+      <Footer />
     </div>
   );
 };
