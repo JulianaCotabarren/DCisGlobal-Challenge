@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const StyledCardButton = styled.a`
   margin: 0.5rem;
-  border: 1px solid #a97ed9;
+  border: 1px solid var(--color-violet);
   border-radius: 0.8rem;
-  background-color: #a97ed9;
+  background-color: var(--color-violet);
   color: white;
   width: 7rem;
   height: 2rem;
@@ -15,6 +15,6 @@ export const StyledCardButton = styled.a`
 
   &:hover {
     cursor: pointer;
-    background-color: #575757;
+    background-color: var(--color-grey-100);
   }
 `;

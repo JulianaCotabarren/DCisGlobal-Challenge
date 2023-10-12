@@ -6,7 +6,7 @@ export const StyledTextArea = styled.textarea`
   height: 6rem;
   font-size: 1rem;
   border-radius: 0.2rem;
-  background-color: #fff;
-  box-shadow: 1px 1px 2px 2px #cccccc;
+  background-color: var(--color-grey-0);
+  box-shadow: 1px 1px 2px 2px var(--color-grey-50);
   padding-left: 0.5rem;
 `;

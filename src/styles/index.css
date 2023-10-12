@@ -1,3 +1,10 @@
+:root{
+  --color-violet: #a97ed9;
+  --color-grey-0: #fff;
+  --color-grey-50: #cccccc;
+  --color-grey-100: #575757;
+  --color-light-blue: #91bff9;
+}
 body{
   margin: 0px;
   padding: 0px;

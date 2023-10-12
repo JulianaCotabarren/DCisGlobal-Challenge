@@ -8,7 +8,7 @@ export const StyledFilterButton = styled.button`
   border: transparent;
 
   &:hover {
-    background-color: #a97ed9;
+    background-color: var(--color-violet);
     transition: all 0.3s;
     border-radius: 0.2rem;
     color: white;

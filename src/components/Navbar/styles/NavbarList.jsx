@@ -7,8 +7,8 @@ export const NavbarList = styled.ul`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border: 1px solid #91bff9;
-  background: #91bff9;
+  border: 1px solid var(--color-light-blue);
+  background: var(--color-light-blue);
   border-radius: 0.8rem;
   height: 2.8rem;
   margin-left: 1rem;

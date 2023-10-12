@@ -13,8 +13,8 @@ export const NavbarLink = styled(NavLink)`
   transition: 0.3s;
 
   &:hover {
-    border-bottom: 2px #a97ed9 solid;
-    border-top: 2px #a97ed9 solid;
+    border-bottom: 2px var(--color-violet) solid;
+    border-top: 2px var(--color-violet) solid;
     cursor: pointer;
   }
 `;

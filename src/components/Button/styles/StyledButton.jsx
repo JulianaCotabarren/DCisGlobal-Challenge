@@ -4,13 +4,13 @@ export const StyledButton = styled.button`
   font-size: 1.2rem;
   width: 18rem;
   height: 2.2rem;
-  border: 1px solid #a97ed9;
+  border: 1px solid var(--color-violet);
   border-radius: 0.8rem;
-  background-color: #a97ed9;
+  background-color: var(--color-violet);
   color: white;
   cursor: pointer;
 
   &:hover {
-    background-color: #575757;
+    background-color: var(--color-grey-100);
   }
 `;
