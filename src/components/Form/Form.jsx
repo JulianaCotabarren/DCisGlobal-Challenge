@@ -1,18 +1,22 @@
 import Button from "../Button/Button";
+import InputLabel from "./InputLabel";
+import InputField from "./InputField";
+import { FormContainer } from "./styles/FormContainer";
+import { StyledForm } from "./styles/StyledForm";
 
 const Form = () => {
   return (
-    <div className="form">
-      <form>
-        <label htmlFor="name">Nombre</label>
-        <input type="text" name="name" autoComplete="off" required />
-        <label htmlFor="email">Email</label>
-        <input type="email" name="email" autoComplete="off" required />
-        <label htmlFor="about">Cuéntanos sobre ti</label>
-        <textarea name="about" autoComplete="off" required />
+    <FormContainer>
+      <StyledForm>
+        <InputLabel htmlFor="name" text="Nombre" />
+        <InputField type="text" name="name" autoComplete="off" required />
+        <InputLabel htmlFor="email" text="Email" />
+        <InputField type="email" name="email" autoComplete="off" required />
+        <InputLabel htmlFor="about" text="Cuéntanos sobre ti" />
+        <InputField type="textarea" name="about" autoComplete="off" required />
         <Button label="Enviar" />
-      </form>
-    </div>
+      </StyledForm>
+    </FormContainer>
   );
 };
 

@@ -1,11 +1,11 @@
 import Navbar from "../components/Navbar/Navbar";
-import Titles from "../components/Titles/Titles";
+import HeaderTitles from "../components/Titles/HeaderTitles";
 
 const WeAreDCisGlobal = () => {
   return (
     <div>
       <Navbar />
-      <Titles
+      <HeaderTitles
         mainTitle="We are #DCisGlobal"
         subTitle="Tenemos el equipo que buscas #DCisDevTeam"
       />

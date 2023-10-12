@@ -1,11 +1,14 @@
 import Navbar from "../components/Navbar/Navbar";
-import Titles from "../components/Titles/Titles";
+import HeaderTitles from "../components/Titles/HeaderTitles";
 
 const DCisTeams = () => {
   return (
     <div>
       <Navbar />
-      <Titles mainTitle="#DCisTeams" subTitle="Equipos que Inspiran Grandeza" />
+      <HeaderTitles
+        mainTitle="#DCisTeams"
+        subTitle="Equipos que Inspiran Grandeza"
+      />
     </div>
   );
 };

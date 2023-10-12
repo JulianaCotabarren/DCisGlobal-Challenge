@@ -3,7 +3,7 @@ import CardsContainer from "../components/Card/CardsContainer";
 import Filter from "../components/Filter/Filter";
 import Navbar from "../components/Navbar/Navbar";
 import Search from "../components/Search/Search";
-import Titles from "../components/Titles/Titles";
+import HeaderTitles from "../components/Titles/HeaderTitles";
 
 const DCISJobs = () => {
   const [currentFilter, setCurrentFilter] = useState("all");
@@ -20,7 +20,7 @@ const DCISJobs = () => {
   return (
     <div>
       <Navbar />
-      <Titles
+      <HeaderTitles
         mainTitle="#DCisJobs"
         subTitle="Desarrolla tu carrera en DCisGlobal"
       />

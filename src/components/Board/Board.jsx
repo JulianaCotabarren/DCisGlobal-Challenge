@@ -1,12 +1,17 @@
+import { StyledBoard } from "./styles/StyledBoard";
+import { StyledBoardImg } from "./styles/StyledBoardImg";
+import { StyledBoardTitle } from "./styles/StyledBoardTitle";
+import { StyledBoardText } from "./styles/StyledBoardText";
+
 const Board = (props) => {
   const { id, image, title, text } = props;
 
   return (
-    <div className="board">
-      <img src={image} alt={image} />
-      <h2>{title}</h2>
-      <p>{text}</p>
-    </div>
+    <StyledBoard>
+      <StyledBoardImg src={image} alt={image} />
+      <StyledBoardTitle>{title}</StyledBoardTitle>
+      <StyledBoardText>{text}</StyledBoardText>
+    </StyledBoard>
   );
 };
 

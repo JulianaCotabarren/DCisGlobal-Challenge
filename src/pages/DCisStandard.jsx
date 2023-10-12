@@ -1,11 +1,11 @@
 import Navbar from "../components/Navbar/Navbar";
-import Titles from "../components/Titles/Titles";
+import HeaderTitles from "../components/Titles/HeaderTitles";
 
 const DCisStandard = () => {
   return (
     <div>
       <Navbar />
-      <Titles
+      <HeaderTitles
         mainTitle="#DCisStandard"
         subTitle="Desbloquea el Potencial Tecnológico de tu Empresa"
       />
