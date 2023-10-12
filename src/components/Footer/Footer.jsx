@@ -40,7 +40,7 @@ const Footer = () => {
               <StyledFooterLinkTitle>Social Media</StyledFooterLinkTitle>
               <StyledFooterLink to="/">Instagram</StyledFooterLink>
               <StyledFooterLink to="/">Facebook</StyledFooterLink>
-              <StyledFooterLink to="/">Youtube</StyledFooterLink>
+              <StyledFooterLink to="/">YouTube</StyledFooterLink>
               <StyledFooterLink to="/">Twitter</StyledFooterLink>
               <StyledFooterLink to="/">LinkedIn</StyledFooterLink>
             </StyledFooterLinkItems>

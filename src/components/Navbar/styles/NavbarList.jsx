@@ -2,6 +2,19 @@ import styled from "styled-components";
 import { respondTo } from "../../../styles/mixins/responsive";
 
 export const NavbarList = styled.ul`
+  display: none;
+  &.open {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-light-blue);
+    width: 100vw;
+    height: 10rem;
+    margin-top: 0;
+    padding-top: 1rem;
+    position: relative;
+  }
+
+  ${respondTo.sm`
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -16,9 +29,6 @@ export const NavbarList = styled.ul`
   padding: 0;
   width: 46rem;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-
-  ${respondTo.sm`
-    margin-left: 0;
   `}
   ${respondTo.md`
     margin-left: 4rem;
