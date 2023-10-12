@@ -1,6 +1,9 @@
 import { useLocation, useNavigate } from "react-router-dom";
 import queryString from "query-string";
 import { useForm } from "../../hooks/useForm";
+import { SearchContainer } from "./styles/SearchContainer";
+import { StyledSearchInput } from "./styles/StyledSearchInput";
+import { StyledSearchButton } from "./styles/StyledSearchButton";
 
 const Search = ({ onSearch }) => {
   const navigate = useNavigate();
@@ -17,9 +20,9 @@ const Search = ({ onSearch }) => {
   };
 
   return (
-    <div className="search">
+    <SearchContainer>
       <form onSubmit={onSearchSubmit}>
-        <input
+        <StyledSearchInput
           type="text"
           name="searchText"
           placeholder="Search a job"
@@ -27,9 +30,9 @@ const Search = ({ onSearch }) => {
           value={searchText}
           onChange={onInputChange}
         />
-        <button>Search</button>
+        <StyledSearchButton>Search</StyledSearchButton>
       </form>
-    </div>
+    </SearchContainer>
   );
 };
 

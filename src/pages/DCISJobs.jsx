@@ -4,6 +4,7 @@ import Filter from "../components/Filter/Filter";
 import Navbar from "../components/Navbar/Navbar";
 import Search from "../components/Search/Search";
 import HeaderTitles from "../components/Titles/HeaderTitles";
+import { FilterAndSearchContainer } from "../components/Filter/styles/FilterAndSearchContainer";
 
 const DCISJobs = () => {
   const [currentFilter, setCurrentFilter] = useState("all");
@@ -24,7 +25,7 @@ const DCISJobs = () => {
         mainTitle="#DCisJobs"
         subTitle="Desarrolla tu carrera en DCisGlobal"
       />
-      <div className="filter-and-search">
+      <FilterAndSearchContainer>
         <Filter
           filterField="type"
           options={[
@@ -37,7 +38,7 @@ const DCISJobs = () => {
           onFilterChange={handleFilterChange}
         />
         <Search onSearch={handleSearch} />
-      </div>
+      </FilterAndSearchContainer>
       <CardsContainer currentFilter={currentFilter} searchText={searchText} />
     </div>
   );
