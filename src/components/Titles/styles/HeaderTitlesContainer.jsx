@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const TitleContainer = styled.div`
+export const HeaderTitlesContainer = styled.div`
   text-align: center;
   height: 10rem;
   display: flex;

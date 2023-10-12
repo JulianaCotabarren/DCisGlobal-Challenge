@@ -3,8 +3,8 @@ import Button from "../components/Button/Button";
 import Navbar from "../components/Navbar/Navbar";
 import BoardContainer from "../components/Board/BoardContainer";
 import Form from "../components/Form/Form";
-import Titles from "../components/Titles/Titles";
 import IntroText from "../components/IntroText/IntroText";
+import HeaderTitles from "../components/Titles/HeaderTitles";
 
 const DCisScouting = () => {
   const navigate = useNavigate();
@@ -16,7 +16,7 @@ const DCisScouting = () => {
   return (
     <div>
       <Navbar />
-      <Titles
+      <HeaderTitles
         mainTitle="#DCisScouting"
         subTitle="Potencia tu Talento y únete a la Revolución Tecnológica"
       />
