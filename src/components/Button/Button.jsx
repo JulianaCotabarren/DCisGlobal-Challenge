@@ -3,7 +3,7 @@ import { StyledButton } from "./styles/StyledButton";
 
 const Button = ({ label, handleClick }) => {
   return (
-    <ButtonContainer className="button">
+    <ButtonContainer>
       <StyledButton onClick={handleClick}>{label}</StyledButton>
     </ButtonContainer>
   );
