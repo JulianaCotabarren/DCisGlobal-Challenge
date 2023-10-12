@@ -6,7 +6,7 @@ import Search from "../components/Search/Search";
 import HeaderTitles from "../components/Titles/HeaderTitles";
 import { FilterAndSearchContainer } from "../components/Filter/styles/FilterAndSearchContainer";
 
-const DCISJobs = () => {
+const DCisJobs = () => {
   const [currentFilter, setCurrentFilter] = useState("all");
   const [searchText, setSearchText] = useState("");
 
@@ -44,4 +44,4 @@ const DCISJobs = () => {
   );
 };
 
-export default DCISJobs;
+export default DCisJobs;
