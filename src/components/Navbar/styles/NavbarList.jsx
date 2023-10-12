@@ -1,17 +1,28 @@
 import styled from "styled-components";
+import { respondTo } from "../../../styles/mixins/responsive";
 
 export const NavbarList = styled.ul`
+  list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-left: 22rem;
-  margin-top: 1.5rem;
   border: 1px solid #91bff9;
-  border-radius: 0.8rem;
   background: #91bff9;
-  padding: 0;
+  border-radius: 0.8rem;
   height: 2.8rem;
-  width: 50vw;
-  list-style: none;
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+  padding: 0;
+  width: 38rem;
+
+  ${respondTo.sm`
+    margin-left: 0;
+  `}
+  ${respondTo.md`
+    margin-left: 14rem;
+  `}
+  ${respondTo.lg`
+    margin-left: 18rem;
+  `}
 `;

@@ -2,5 +2,5 @@ import styled from "styled-components";
 
 export const LogoImg = styled.img`
   background-color: transparent;
-  width: 15vw;
+  width: 12rem;
 `;

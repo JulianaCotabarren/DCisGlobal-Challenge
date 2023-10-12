@@ -5,11 +5,11 @@ export const CardContainer = styled.div`
   border-bottom: 2px solid #a97ed9;
   border-left: 1px solid #cccccc;
   border-right: 1px solid #cccccc;
-  width: 25vw;
+  width: 20rem;
   height: 11rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 1rem 0;
+  margin: 1rem;
 `;
