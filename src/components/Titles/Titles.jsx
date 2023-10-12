@@ -1,9 +1,13 @@
+import { MainTitle } from "./styles/MainTitle";
+import { SubTitle } from "./styles/SubTitle";
+import { TitleContainer } from "./styles/TitleContainer";
+
 const Titles = ({ mainTitle, subTitle }) => {
   return (
-    <div className="title">
-      <h1>{mainTitle}</h1>
-      <h2>{subTitle}</h2>
-    </div>
+    <TitleContainer className="title">
+      <MainTitle>{mainTitle}</MainTitle>
+      <SubTitle>{subTitle}</SubTitle>
+    </TitleContainer>
   );
 };
 
