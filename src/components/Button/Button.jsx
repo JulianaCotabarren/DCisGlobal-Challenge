@@ -1,8 +1,11 @@
+import { ButtonContainer } from "./styles/ButtonContainer";
+import { StyledButton } from "./styles/StyledButton";
+
 const Button = ({ label, handleClick }) => {
   return (
-    <div className="button">
-      <button onClick={handleClick}>{label}</button>
-    </div>
+    <ButtonContainer className="button">
+      <StyledButton onClick={handleClick}>{label}</StyledButton>
+    </ButtonContainer>
   );
 };
 
