@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { JobsContext } from "../../context/JobsProvider";
 import Card from "./Card";
 import Empty from "../Empty/Empty";
-import { StyledCardsContainer } from "./styles/StyledCardsContainer";
+import { StyledCardsContainer } from "./styles";
 
 const CardsContainer = ({ currentFilter, searchText }) => {
   const { jobs } = useContext(JobsContext);

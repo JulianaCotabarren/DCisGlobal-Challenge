@@ -4,9 +4,7 @@ import Router from "./routes";
 function App() {
   return (
     <JobsProvider>
-      <div className="App">
-        <Router />
-      </div>
+      <Router />
     </JobsProvider>
   );
 }
