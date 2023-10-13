@@ -1,0 +1,23 @@
+:root{
+  --color-violet: #a97ed9;
+  --color-grey-0: #fff;
+  --color-grey-25: #eeeeee;
+  --color-grey-50: #cccccc;
+  --color-grey-100: #575757;
+  --color-light-blue: #91bff9;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("../assets/background.png");
+  background-repeat:no-repeat;
+  background-size: 100%;
+  width: 100%;
+}
+*{
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
