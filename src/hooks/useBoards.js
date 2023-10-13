@@ -5,7 +5,7 @@ const useBoards = () => {
 
   const getBoards = async () => {
     try {
-      const response = await fetch("../../backend/db.json");
+      const response = await fetch("../../public/backend/db.json");
       if (!response.ok) {
         throw new Error("Error al cargar datos");
       }
