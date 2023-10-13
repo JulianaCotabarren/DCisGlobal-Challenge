@@ -25,13 +25,9 @@
 - On the DCisJobs page the user can filter the jobs according to the hybrid/presential/remote modality.
 - Additionally, the user can search for jobs by title and if the search returns no results the user will be allowed to return to the DCisScouting page.
 
-## Deployment
-
-The project was deployed using Vercel.
-
-- [DCisGlobalChallenge]()
-
 ## Usage
+
+**IMPORTANT:** The project was developed using **npm 9.5.1 version**. Please, check your npm version to avoid problems.
 
 To run the project locally follow the next steps:
 
@@ -44,3 +40,13 @@ To run the project locally follow the next steps:
 4. Run the app in the development mode: `npm run dev`
 
 5. Open your localhost in the indicated port to view it in the browser.
+
+## Website Images
+
+![Footer](./src/assets/footer.png)
+![DCisScouting](./src/assets/DCisScouting.png)
+![Board Section](./src/assets/boardSection.png)
+![Contact Form](./src/assets/contactForm.png)
+![DCisJobs](./src/assets/DCisJobs.png)
+![Jobs List](./src/assets/JobsList.png)
+![Jobs Search](./src/assets/JobsSearch.png)
