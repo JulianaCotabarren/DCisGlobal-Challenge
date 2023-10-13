@@ -1,7 +1,9 @@
-import { StyledBoard } from "./styles/StyledBoard";
-import { StyledBoardImg } from "./styles/StyledBoardImg";
-import { StyledBoardTitle } from "./styles/StyledBoardTitle";
-import { StyledBoardText } from "./styles/StyledBoardText";
+import {
+  StyledBoard,
+  StyledBoardImg,
+  StyledBoardTitle,
+  StyledBoardText,
+} from "./styles";
 
 const Board = (props) => {
   const { id, image, title, text } = props;

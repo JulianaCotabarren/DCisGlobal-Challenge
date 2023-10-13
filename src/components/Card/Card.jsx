@@ -1,12 +1,13 @@
-/* import { jobs } from "../../data"; */
 import { IoLocationSharp } from "react-icons/io5";
-import { CardContainer } from "./styles/CardContainer";
-import { StyledCardTitle } from "./styles/StyledCardTitle";
-import { StyledCardText } from "./styles/StyledCardText";
-import { StyledCardButton } from "./styles/StyledCardButton";
-import { StyledCardLocation } from "./styles/StyledCardLocation";
-import { StyledCardIcon } from "./styles/StyledCardIcon";
-import { StyledCardType } from "./styles/StyledCardType";
+import {
+  CardContainer,
+  StyledCardTitle,
+  StyledCardText,
+  StyledCardButton,
+  StyledCardLocation,
+  StyledCardIcon,
+  StyledCardType,
+} from "./styles";
 
 const Card = (props) => {
   const { id, title, location, type } = props;

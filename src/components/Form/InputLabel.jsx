@@ -1,4 +1,4 @@
-import { StyledLabel } from "./styles/StyledLabel";
+import { StyledLabel } from "./styles";
 
 const InputLabel = ({ htmlFor, text }) => {
   return <StyledLabel htmlFor={htmlFor}>{text}</StyledLabel>;

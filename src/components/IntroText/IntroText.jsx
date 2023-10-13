@@ -1,5 +1,4 @@
-import { Paragraph } from "./styles/Paragraph";
-import { StyledIntroText } from "./styles/StyledIntroText";
+import { Paragraph, StyledIntroText } from "./styles";
 
 const IntroText = () => {
   return (

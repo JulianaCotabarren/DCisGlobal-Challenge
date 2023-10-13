@@ -1,5 +1,4 @@
-import { StyledInput } from "./styles/StyledInput";
-import { StyledTextArea } from "./styles/StyledTextArea";
+import { StyledInput, StyledTextArea } from "./styles";
 
 const InputField = ({
   type,

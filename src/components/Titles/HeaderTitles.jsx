@@ -1,6 +1,8 @@
-import { StyledHeaderMainTitle } from "./styles/StyledHeaderMainTitle";
-import { StyledHeaderSubTitle } from "./styles/StyledHeaderSubTitle";
-import { HeaderTitlesContainer } from "./styles/HeaderTitlesContainer";
+import {
+  StyledHeaderMainTitle,
+  StyledHeaderSubTitle,
+  HeaderTitlesContainer,
+} from "./styles";
 
 const HeaderTitles = ({ mainTitle, subTitle }) => {
   return (

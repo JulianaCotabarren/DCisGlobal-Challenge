@@ -1,5 +1,4 @@
-import { FilterContainer } from "./styles/FilterContainer";
-import { StyledFilterButton } from "./styles/StyledFilterButton";
+import { FilterContainer, StyledFilterButton } from "./styles";
 
 const Filter = ({ filterField, options, currentFilter, onFilterChange }) => {
   return (

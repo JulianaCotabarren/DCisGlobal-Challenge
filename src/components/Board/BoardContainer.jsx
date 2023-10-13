@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { JobsContext } from "../../context/JobsProvider";
 import Board from "./Board";
-import { StyledBoardContainer } from "./styles/StyledBoardContainer";
+import { StyledBoardContainer } from "./styles";
 
 const BoardContainer = () => {
   const { boards } = useContext(JobsContext);

@@ -1,9 +1,11 @@
 import { useLocation, useNavigate } from "react-router-dom";
 import queryString from "query-string";
 import { useForm } from "../../hooks/useForm";
-import { SearchContainer } from "./styles/SearchContainer";
-import { StyledSearchInput } from "./styles/StyledSearchInput";
-import { StyledSearchButton } from "./styles/StyledSearchButton";
+import {
+  SearchContainer,
+  StyledSearchInput,
+  StyledSearchButton,
+} from "./styles";
 
 const Search = ({ onSearch }) => {
   const navigate = useNavigate();

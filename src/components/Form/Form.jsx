@@ -1,8 +1,7 @@
 import Button from "../Button/Button";
 import InputLabel from "./InputLabel";
 import InputField from "./InputField";
-import { FormContainer } from "./styles/FormContainer";
-import { StyledForm } from "./styles/StyledForm";
+import { FormContainer, StyledForm } from "./styles";
 
 const Form = () => {
   return (

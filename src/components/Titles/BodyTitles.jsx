@@ -1,6 +1,8 @@
-import { BodyTitlesContainer } from "./styles/BodyTitlesContainer";
-import { StyledBodyPreTitle } from "./styles/StyledBodyPreTitle";
-import { StyledBodyTitle } from "./styles/StyledBodyTitle";
+import {
+  BodyTitlesContainer,
+  StyledBodyPreTitle,
+  StyledBodyTitle,
+} from "./styles";
 
 const BodyTitles = ({ preTitle, bodyTitle }) => {
   return (
